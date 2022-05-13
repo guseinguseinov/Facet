@@ -1,0 +1,146 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+header {
+    width: 100%;
+}
+
+header > div.header-div {
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+button.menu-button {
+    display: none;
+    border: 0;
+    background-color: #fff;
+    cursor:pointer;
+}
+
+button.menu-button:active{
+    background-color: #efefef;
+}
+
+button.menu-button > img {
+    width: 24px;
+}
+
+nav.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 623px;
+    font-size: 16px;
+}
+
+div.dropdown-div {
+    height: 100%;
+    position: relative;
+}
+
+nav.main-nav  p{
+    display: flex;
+    align-items: center;
+}
+
+nav.dropdown-nav {
+    display: none;
+}
+
+nav.dropdown-nav > a {
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
+}
+
+nav.dropdown-nav > a:hover {
+    color:#0050a1;
+}
+
+.show-content {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #efefef;
+    position: absolute;
+    width: 100px;
+    height: auto;
+    top: 80px;
+
+}
+
+img[alt="expand-logo"] {
+    height: 24px;
+    width: 24px;   
+}
+
+.links {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    text-decoration: none;
+    color: #000;
+
+}
+
+a.links:hover {
+    color: #0050a1;
+}
+
+button.start-hiring {
+    background-color: #0071e0;
+    padding: 10px 15px;
+    border:0;
+    border-radius:5px;
+    cursor:pointer;
+    color:#fff;
+    font-size: 16px;
+    font-weight:400;
+}
+
+button.start-hiring:hover {
+    background-color: #055aad;;
+}
+
+/* @media only screen and (max-width: 600px) */
+@media only screen and (max-width: 1110px) {
+    
+    header > div.header-div {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    
+    header > div.header-div {
+        padding: 25px;
+        position: relative;
+    }
+
+    button.menu-button {
+        display: block;
+    }
+
+    nav.main-nav {
+        display: none;
+        position: absolute;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}

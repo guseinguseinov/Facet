@@ -1,0 +1,116 @@
+section.changing-career {
+    padding: 100px 0;
+    background-color: #f7f9fa;
+}
+
+div.changing-career-div  {
+    width: 78%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.changing-career-img {
+    width: 545px;
+    height: 454px;
+}
+
+img[alt="changing-career-img"] {
+    width: 100%;
+    height: 100%;
+}
+
+div.content-changing-career {
+    width: 545px;
+    height: 454px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.content-changing-career  h2 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #303030;
+    text-align: left ;
+}
+
+div.content-changing-career  p {
+    font-size: 19px;
+    line-height: 28px;
+    color: #626f7f;
+}
+
+div.changing-career-links a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 40px;
+    font-weight: 600;
+}
+
+div.changing-career-links > a.join-facet {
+    color:#fff;
+    background-color: #0071e0;
+    transition: all 1s;
+    margin-right: 10px;
+}
+
+div.changing-career-links > a.join-facet:hover {
+    background-color:#3398ea;
+}
+
+div.changing-career-links > a.learn-more {
+    color: #626f7f;
+    background-color: #e3e3e4;
+    transition: all 1s;
+}
+
+div.changing-career-links > a.learn-more:hover {
+    background-color: #cbcbce;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    div.changing-career-div  {
+        justify-content: center;
+    }    
+}
+
+@media only screen and (max-width:990px) {
+    div.changing-career-div  {
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    div.changing-career-img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.content-changing-career {
+        width: 100%;
+        height: auto;
+    }
+
+    div.changing-career-links {
+        margin-top:30px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    div.changing-career-links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    div.changing-career-links a {
+        width: 100%;  
+        margin-bottom:10px; 
+    }
+}

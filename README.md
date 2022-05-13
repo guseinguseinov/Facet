@@ -1,6 +1,6 @@
 # Facet
 
 
-## Website [facet.com](https://www.facet.net/)
+## Website [facet.net](https://www.facet.net/)
 
 ## My Build [here](https://guseinguseinov.github.io/Facet/)

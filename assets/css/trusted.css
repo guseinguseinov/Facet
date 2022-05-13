@@ -1,0 +1,44 @@
+section.trusted {
+    width: 78%;
+    margin: 100px auto 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.sponsors {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+section.trusted  p {
+    width: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #b5b7bd;
+    margin: 20px 0;
+}
+
+section.trusted  img {
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+
+@media only screen and (max-width:990px) {
+    section.trusted {
+        flex-direction: column;
+    }
+
+    section.trusted  img {
+        width: 160px;
+        height: 80px;
+    }
+
+    div.sponsors {
+        flex-wrap: wrap;
+    }
+}

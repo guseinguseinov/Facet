@@ -1,0 +1,96 @@
+section.hiring-solutions {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section.career-solution {
+    padding:0 !important;
+}
+
+
+section.hiring-solutions > h2 {
+    font-size: 44px;
+    line-height: 54px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom:64px;
+}
+
+div.elastic-recruting {
+    width: 78%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+div.elastic-recruting-content {
+    width: 545px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.elastic-recruting-content > h3{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+div.elastic-recruting-content p{
+    font-size: 19px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    color: #626f7f;
+}
+
+div.elastic-recruting-content a{
+    font-size: 19px;
+    line-height: 28px;
+    color: #0071e0; 
+    font-weight: 700;
+    text-decoration: none;
+}
+div.elastic-recruting-content a:hover{
+    color: #0050a1; 
+}
+
+img[alt="arrow-right"] {
+    width: 20px;
+    height: 20px;
+}
+
+div.elastic-recruting-div-img {
+    width: 545px;
+}
+
+
+div.elastic-recruting-div-img > img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+    div.elastic-recruting   {
+        flex-direction: column-reverse;
+        align-items: center;
+    }    
+}
+
+@media only screen and (max-width:990px) {
+
+    div.elastic-recruting-div-img {
+        width: 100%;
+    }
+    div.elastic-recruting {
+        width: 95%;
+    }
+    
+    div.elastic-recruting-content {
+        width: 100%;
+    }
+}
