@@ -10,6 +10,8 @@ div.linkedin-div {
 
 img[alt='linkedin-logo'] {
     width: 24px;
+    padding:3px;
+    border-radius: 5px;
     cursor:pointer;
 }
 
@@ -51,6 +53,16 @@ section.footer-main-content a {
 section.footer-main-content a:hover {
     color: #3892ec;
     border-bottom: 1px solid #3892ec;
+}
+
+a.developer-name {
+    text-decoration: none;
+    color: #3892ec;
+
+}
+
+a.developer-name:hover {
+    color:#0050a1;
 }
 
 @media only screen and (max-width:990px) {
